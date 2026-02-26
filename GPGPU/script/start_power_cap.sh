@@ -16,12 +16,13 @@ dcgmi dmon -i 0 -e 1008,1007,1006,1002,100,155,1005 -d 300 -c 1
 
 # # suite 0: ECP 
 # # suite 1: ALTIS
-# # suite 2: npb
+# # suite 2: ML
 # # suite 3: Hec
 # # suite 4: spec
 
 
-python3 exp_power_cap.py --suite 4 
+/home/ac.zzheng/env/ml/bin/python3 exp_power_cap.py --suite 2
+
 
 
 
